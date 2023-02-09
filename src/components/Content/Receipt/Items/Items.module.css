@@ -1,0 +1,25 @@
+.item {
+	padding-left: 20px;
+	width: calc(90% - 20px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product, .weight {
+	font-family: 'Alegreya', serif;
+	font-size: 1.2rem;
+	display: block;
+	width: fit-content;
+}
+
+.product {
+	text-align: right;
+}
+
+.space {
+	flex-grow: 1;
+	display: block;
+	border-bottom: 2px dotted;
+	margin: 0 0.5rem -0.8rem 0.5rem;
+}

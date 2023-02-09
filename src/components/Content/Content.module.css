@@ -1,0 +1,19 @@
+.wrapper {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 2.5rem;
+
+}
+
+.roll {
+	flex: 1 0 97%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.paginator {
+	flex: 0 1 3%;
+}

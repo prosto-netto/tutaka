@@ -1,0 +1,23 @@
+
+.sblink {
+	margin: 0rem 0rem 0.6rem 1rem;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	font-style: italic;
+	color: #4CA621;
+}
+
+.active {
+	border-bottom: 2px dotted #4CA621;
+	filter: grayscale(0.7);
+}
+
+.regular {
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.regular:hover {
+	filter: brightness(0.7);
+}

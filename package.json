@@ -1,6 +1,9 @@
 {
-  "name": "rolls",
-  "version": "0.1.0",
+  "name": "tutaka_new_rolls",
+  "version": "1.0.0",
+  "description": "receipts layout",
+  "author": "Vasil Kalamiyets",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -8,7 +11,10 @@
     "@testing-library/user-event": "^13.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

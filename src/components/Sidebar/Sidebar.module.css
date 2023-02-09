@@ -1,0 +1,16 @@
+.wrapper {
+	flex: 0 1 20%;
+	background-color: #A6213B;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.sidebar {
+	width: 80%;
+	border-top-right-radius: 1.5rem;
+	border-top-left-radius: 1.5rem;
+	background-color: #fff;
+	margin: 1rem;
+	padding: 1rem 0 0.4rem 0rem;
+}

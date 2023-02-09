@@ -1,0 +1,4 @@
+.pagesGallery {
+	display: flex;
+	flex-direction: column;
+}

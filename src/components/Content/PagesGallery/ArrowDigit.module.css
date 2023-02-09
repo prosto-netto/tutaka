@@ -1,0 +1,51 @@
+
+.arrowDisabled,
+.arrowEnabled, 
+.current, 
+.other  {
+	display: inline-block;
+	height: 2.3rem;
+	width: 2.3rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	font-style: italic;
+	border-width: 10px;
+	border-style: solid;
+	box-shadow: 4px 1px 4px 1px #10101085;
+}
+
+.arrowDisabled, .current {
+	border-color: #BF697A;
+	color: #85BF69;
+	background-color: #e1e1e1;
+	filter:grayscale(0.6)
+}
+
+.arrowEnabled, .other  {
+	border-color: #A6213B;
+	color: #4CA621;
+	background-color: #fff;
+	transition: filter 0.3s ease-in;
+	cursor: pointer;
+}
+
+.arrowEnabled:hover, .other:hover {
+	filter: brightness(0.8);
+}
+
+.pageButton {
+	margin-bottom: 0.5rem;
+}
+
+.pageButton:first-child {
+	margin-bottom: 0.7rem;
+}
+
+.pageButton:last-child {
+	margin-top: 0.2rem;
+}
